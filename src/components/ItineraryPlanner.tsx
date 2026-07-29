@@ -81,7 +81,7 @@ export function ItineraryPlanner({
   }
 
   return (
-    <div className="grid grid-cols-1 gap-8 lg:grid-cols-[380px_1fr]">
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-[380px_minmax(0,1fr)]">
       <form
         onSubmit={handleSubmit}
         className="h-fit space-y-5 rounded-2xl border border-black/10 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-white/5"
